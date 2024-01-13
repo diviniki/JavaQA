@@ -8,13 +8,17 @@ public class JavaTask2_2 {
         // параметров программы: начального счёта,
         // суммы пополнения и тп
 
-        int Count = 1570;
-        int IncomeSum = 200;
+        int count = 1570;
+        int incomeSum = 200;
 
-        if (Count + IncomeSum > 1000) {
-            System.out.println(IncomeSum / 100);
+        if (count + incomeSum > 1000) {
+            count = count + incomeSum;
+            System.out.println("Итоговый счет: " + count);
+            System.out.println("Количество бонусных рублей: " + incomeSum / 100);
         } else {
-            System.out.println(0);
+            count = count + incomeSum;
+            System.out.println("Итоговый счет: " + count);
+            System.out.println("Количество бонусных рублей: " + 0);
         }
 
         // Условным оператором проверяете, превысила ли
