@@ -6,7 +6,6 @@ public class BmiService {
         heightM =  (double)b / (double)100;
         heightMSq =  heightM*heightM;
         indexBmi = (double)a / heightMSq;
-        //indexBmi = a / (heightM * heightM);
         return (int)indexBmi;
 
     }

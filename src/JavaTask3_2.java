@@ -6,7 +6,5 @@ public class JavaTask3_2 {
         int indexBmi = service.calculate(weightKg, heightCm);
         System.out.println(indexBmi);
 
-        //int myBonus = service.price(10000);
-        //System.out.println(myBonus);
     }
 }
